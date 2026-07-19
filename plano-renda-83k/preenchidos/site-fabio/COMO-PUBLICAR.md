@@ -2,9 +2,9 @@
 
 O `index.html` desta pasta é seu site completo — uma página, sem dependências, pronto.
 
-## Antes de publicar (2 ajustes obrigatórios)
+## Antes de publicar (1 ajuste restante)
 
-1. **WhatsApp:** troque `55SEUNUMERO` pelo seu número com DDD (ex.: `5511987654321`) — aparece em 4 lugares no arquivo (use buscar/substituir).
+1. ~~WhatsApp~~ ✅ **Já configurado** com o número 55 11 98212-3896 em todos os botões.
 2. **Rodapé:** troque `[CIDADE/UF]` pela sua cidade (ajuda no Google local).
 
 ## Publicar na Vercel (grátis)
