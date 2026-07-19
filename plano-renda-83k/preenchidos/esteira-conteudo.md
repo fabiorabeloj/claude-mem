@@ -77,6 +77,20 @@ Sem casos ainda? A esteira começa com o que você já tem:
 
 **Me peça qualquer um desses que eu escrevo a versão completa agora.**
 
+## Ganchos prontos para o nicho (primeiras 3 segundos do vídeo/post)
+
+Gancho é o que decide se alguém para de rolar o feed. Estoque para girar:
+
+1. "Sua clínica responde paciente às 22h? A do seu concorrente já responde."
+2. "Quanto custa cada ligação que sua recepção não atende? Fiz a conta."
+3. "O funcionário mais barato da sua clínica trabalha 24h e não tira férias."
+4. "3 mensagens que sua clínica está perdendo AGORA (e nem sabe)."
+5. "Automatizei meu próprio trabalho. Agora automatizo o dos outros."
+6. "Todo mundo salva post de IA. Quase ninguém implementa. Eu implemento."
+7. "O que eu cobraria para automatizar seu atendimento — sem enrolação: [preço]."
+
+Regra do CTA: sempre UM só, sempre para conversa ("chama no WhatsApp"), nunca "comenta X que te envio" — funil de comentário é jogo de audiência grande; o seu jogo é conversa que vira contrato.
+
 ## Distribuição automatizada (liga a esteira no piloto automático)
 
 Duas ferramentas resolvem a logística de publicar — configure 1 vez:
