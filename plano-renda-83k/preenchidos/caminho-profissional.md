@@ -1,91 +1,85 @@
-# Caminho Profissional — Fabio Rabelo
+# Caminho Profissional — Fabio Rabelo (v2, calibrado no perfil real)
 
-Um caminho único, decidido, com degraus. Não é um leque de opções: é a rota. As premissas assumidas estão no fim — se alguma estiver errada, o caminho se ajusta, não se descarta.
+**Perfil confirmado:** menos de 2 anos de programação · constrói com IA (vibecoding) · inglês avançado/fluente · quer os dois caminhos (internacional + Brasil).
+
+## A leitura honesta do seu perfil
+
+**Sua vantagem injusta:** inglês fluente + fluência em ferramentas de IA. Menos de 1% dos brasileiros que "fazem automação com IA" conseguem vender e atender clientes americanos em inglês. Isso vale mais, hoje, do que 5 anos de experiência em código.
+
+**Sua limitação real (dita sem rodeio):** com menos de 2 anos, você não passa hoje em entrevista técnica de vaga US$ 150k+, e vibecoding sem fundamentos quebra quando o projeto cresce. O caminho anterior (emprego sênior internacional) fica para o futuro — não é o degrau 1.
+
+**A consequência estratégica:** seu veículo para R$ 83 mil não é salário — é **negócio de serviços de IA** (onde se paga por resultado entregue, não por anos de experiência), com fundamentos de engenharia sendo construídos em paralelo.
 
 ## A identidade profissional (o destino)
 
-> **Engenheiro de Agentes de IA** — o especialista que empresas e produtos chamam quando um agente de IA precisa funcionar em produção: com memória, integração a sistemas reais, custo controlado e comportamento confiável.
+> **Especialista em Automação de IA para negócios** — a pessoa que pequenas e médias empresas (no Brasil E nos EUA) contratam para automatizar atendimento, processos e operações com IA. Evoluindo, em 2–3 anos, para engenheiro de agentes de verdade.
 
-Por que esta identidade e não outra:
+## Os 4 degraus (recalibrados)
 
-- É a interseção do que você já toca (ecossistema Claude Code, claude-mem, MCP) com o que o mercado paga topo de faixa hoje — e a demanda está subindo, não descendo.
-- É rara: milhões de "fullstack developers", pouquíssimos especialistas em memória/confiabilidade de agentes.
-- Todos os cestos do `09-cestos-de-ovos.md` derivam dela — emprego, consultoria, produto e conteúdo vendem a MESMA especialidade.
+### Degrau 1 — Primeiros clientes pagantes (meses 1–6) · meta: R$ 5–15 mil/mês
 
-## Os 4 degraus
+O que você já sabe fazer com IA é suficiente para resolver problemas reais de negócios pequenos:
 
-### Degrau 1 — Praticante com prova pública (meses 1–6)
+- **Ofertas iniciais** (escolha 2): chatbot de atendimento/WhatsApp com IA · automação de processos (planilhas → sistemas, e-mails, relatórios) · assistente interno treinado nos documentos da empresa · site/landing + captação automatizada
+- **Preço inicial:** R$ 1.500–5.000 por projeto (BR) · US$ 500–1.500 (clientes US via inglês — Upwork, comunidades, indicação). Barato de propósito: você está comprando casos de sucesso e depoimentos.
+- **Prospecção:** a seção C do `outreach-drafts.md` (rede) + comércios/serviços locais + Upwork em inglês. Volume do `08-pipeline-semanal.md`.
+- **Regra de ouro do degrau:** todo projeto termina com depoimento + permissão para divulgar o caso.
 
-**Título informal:** "o dev que entende de memória de agentes"
+**Saiu do degrau quando:** 5 clientes pagos e 2 casos documentados com número ("reduzi X horas/semana do atendimento da loja Y").
 
-- Executar o `plano-30-dias.md` inteiro (posicionamento, 1ª PR no upstream do claude-mem, artigo publicado)
-- Repetir o ciclo: 1 contribuição open source + 1 artigo por mês, sempre no tema agentes/memória/MCP
-- Construir 1 projeto próprio pequeno e demonstrável (ex.: um MCP server útil publicado no registry — prova de autoria, não só contribuição)
-- Inglês: 3h/semana até entrevista técnica fluir (se já flui, redireciona as horas para o item acima)
+### Degrau 2 — Recorrência e ticket maior (meses 6–18) · meta: R$ 20–45 mil/mês
 
-**Você saiu do degrau quando:** alguém que você não conhece te encontrar pelo conteúdo (um recruiter, um comentário, uma DM).
+- Converter todo projeto em **mensalidade de manutenção/evolução** (R$ 300–1.500/mês por cliente) — é ela que estabiliza a renda
+- Subir ticket dos projetos novos: R$ 8–20 mil (empresas maiores, indicadas pelos primeiros clientes)
+- Clientes US viram prioridade: o mesmo trabalho cobrado em dólar rende 3–5x — seu inglês é o diferencial aqui
+- **Fundamentos em paralelo (5h/semana, inegociável):** entender de verdade o código que a IA gera — Git, APIs, bancos de dados, deploy, depuração. Método: cada projeto entregue, estudar a fundo 1 parte que a IA fez por você
+- Publicar 1 conteúdo/mês sobre os casos (em inglês — o `06-post-tecnico.md` adaptado para "how I automated X for a client")
 
-### Degrau 2 — Renda âncora internacional (meses 4–14)
+**Saiu do degrau quando:** R$ 15 mil+/mês só de recorrência + você consegue explicar e modificar qualquer sistema que entregou.
 
-**Título:** Software Engineer / AI Engineer em empresa internacional, remoto, US$ 130–200k/ano
+### Degrau 3 — Escala: agência OU especialização (meses 18–36) · meta: R$ 50–83 mil/mês
 
-- Prospecção da variante A rodando toda semana (`outreach-drafts.md` + `08-pipeline-semanal.md`): 10 applications + 5 e-mails diretos/semana
-- Alvos em ordem de prioridade: (1) empresas construindo devtools/infra de IA, (2) startups YC com produto que usa agentes, (3) qualquer produto US contratando "AI engineer" remoto
-- Preparação de entrevista: 2 mock interviews/mês (system design de sistemas com LLM + coding padrão)
-- Ao receber oferta: negociar SEMPRE (pedir 15–20% acima; o primeiro número deles nunca é o teto)
+Bifurcação decidida com dados reais lá na frente:
 
-**Você saiu do degrau quando:** contrato assinado ≥ US$ 10 mil/mês. **Isso sozinho já é R$ 50–65 mil/mês** — 60–80% da meta.
+- **Rota agência (mais provável para bater 83k):** contratar 1–2 pessoas (ou subcontratar), você vira o vendedor/arquiteto. Conta: 12 clientes de projeto/ano (R$ 15–25 mil) + 25 recorrências (R$ 800–1.500) ≈ R$ 70–100 mil/mês.
+- **Rota especialista:** com 3+ anos de fundamentos reais + portfólio de casos, aí sim o mercado internacional abre (vaga mid-level US$ 90–130k ou consultoria premium). O caminho antigo vira alcançável — 2 anos depois do que o plano original assumia.
 
-### Degrau 3 — Autoridade que vende (meses 12–24)
+Em ambas: cesto 5 do `09-cestos-de-ovos.md` rodando desde o degrau 1 (20% de tudo investido automaticamente).
 
-**Título:** o mesmo emprego + marca pessoal que gera oportunidades sem prospecção
+### Degrau 4 — Consolidação (meses 36+)
 
-- Manter 2 artigos/mês e presença ativa; a audiência acumulada começa a trazer inbound
-- Aceitar 1 consultoria pontual por trimestre (R$ 40–60 mil, fins de semana de 6 semanas — só projetos que não conflitem com o contrato; verificar cláusulas)
-- Palestrar em 2–3 eventos/podcasts de IA no ano (chega convite quando o degrau 1 virou rotina)
-- Cesto 5 rodando desde o degrau 2: 25% de toda entrada investida automaticamente
+Agência rodando com time OU posição sênior internacional + consultoria. As duas rotas se encontram em R$ 83 mil+ estáveis com diversificação real.
 
-**Você saiu do degrau quando:** renda média de 3 meses ≥ R$ 83 mil (contrato + consultorias) **← meta batida aqui.**
+## Habilidades na ordem certa (para o SEU perfil)
 
-### Degrau 4 — Alavancagem (meses 24+)
+| # | Habilidade | Por quê primeiro | Como |
+|---|-----------|------------------|------|
+| 1 | **Vender** (achar cliente, call, proposta, cobrar) | É o gargalo de 100% dos degraus 1–3 | Modelos `02`–`05`, na prática desde a semana 1 |
+| 2 | Entrega confiável com IA (escopo pequeno, testar tudo, suporte) | Cliente satisfeito = indicação = pipeline grátis | Cada projeto |
+| 3 | Fundamentos de engenharia | Destrava tickets maiores e o degrau 3 | 5h/semana a partir do mês 3 |
+| 4 | Conteúdo em inglês | Transforma casos em ímã de clientes US | 1/mês a partir do mês 4 |
 
-**Título:** Staff/Principal Engineer OU consultor-produto independente
+**Não estudar agora:** frameworks da moda, certificações, cursos longos de fundamentos ANTES de ter clientes. Cliente primeiro, teoria puxada pela prática.
 
-Duas rotas válidas a partir da meta batida — decisão para daqui a 2 anos, não agora:
+## Expectativa honesta de prazo
 
-- **Rota corporativa:** subir para Staff/Principal na empresa (US$ 250k+/ano), mantendo conteúdo e investimentos
-- **Rota independente:** o inbound de consultoria supera o salário → transição para consultoria própria + produto (o tier pago de um projeto seu, nascido dos artigos e da audiência)
+| Marco | Prazo realista | Prazo se tudo der certo |
+|-------|---------------|------------------------|
+| Primeiro cliente pago | mês 1–2 | semana 2 |
+| R$ 10 mil/mês | mês 4–8 | mês 3 |
+| R$ 40 mil/mês | mês 15–24 | mês 12 |
+| **R$ 83 mil/mês** | **mês 30–42** | mês 24 |
 
-O caminho até aqui deixa as duas portas abertas de propósito.
+Com menos de 2 anos de estrada, prometer 83k em 12 meses seria mentira. Este caminho chega lá construindo um ativo (carteira de clientes + recorrência + habilidade real) em vez de apostar num atalho.
 
-## Habilidades a construir (em ordem, não em paralelo)
+## Checkpoints trimestrais
 
-| Prioridade | Habilidade | Como | Prazo |
-|-----------|-----------|------|-------|
-| 1 | Arquitetura de agentes (memória, tools, MCP, evals) | Contribuições + projeto próprio + artigos | contínuo, já começou |
-| 2 | Inglês de entrevista técnica | 3h/semana + mocks | mês 1–6 |
-| 3 | Vender (outreach, calls, proposta) | Executar `02`–`05` toda semana — se aprende fazendo | mês 1–12 |
-| 4 | System design para entrevista US | 1 estudo/semana (padrões de sistemas com LLM) | mês 3–9 |
-| 5 | Escrita técnica em inglês | 2 posts/mês com o modelo `06` | contínuo |
+- **Mês 3:** 2+ clientes pagos? Se não: o problema é volume de prospecção — dobrar os números do `08`
+- **Mês 6:** 5 clientes + 2 casos com número? Se não: revisar oferta (talvez o nicho escolhido não sente dor suficiente)
+- **Mês 12:** R$ 15 mil+/mês com recorrência começando? Se não: subir ticket e priorizar clientes US
+- **Mês 18:** decidir a bifurcação do degrau 3 com os dados da carteira
+- **Mês 30–42:** meta batida
 
-O que **não** entrar nesta lista, não estudar: curso novo de framework da moda, segunda linguagem, certificações genéricas. Profundidade vence amplitude neste caminho.
+## A regra que sustenta tudo (inalterada)
 
-## Checkpoints trimestrais (marque no calendário hoje)
-
-- **Mês 3:** prova pública existe? (PR aceita + 2 artigos no ar) — se não, o problema é execução, não estratégia
-- **Mês 6:** pipeline gerou ≥ 3 entrevistas ou 3 calls de proposta? — se não, rodar o diagnóstico do `08`
-- **Mês 9:** primeira oferta/contrato ≥ R$ 30 mil/mês? — se não, revisar alvo (empresas menores) e subir volume 50%
-- **Mês 12:** renda ≥ R$ 50 mil/mês? — se sim, ativar degrau 3; se não, persistir no 2 (a mediana chega entre mês 9 e 18)
-- **Mês 24:** média trimestral ≥ R$ 83 mil — meta batida; escolher a rota do degrau 4
-
-## Premissas assumidas (corrija-me se errei)
-
-1. Você trabalha com desenvolvimento de software e tem base em TypeScript/Node (inferido deste repositório)
-2. Pode dedicar ~10h/semana além do trabalho atual
-3. Inglês em nível intermediário ou melhor (se for básico, o degrau 2 desloca 6 meses e o degrau 3 — consultoria BR — vira o âncora temporário)
-4. Prefere manter emprego/renda atual durante a transição (o caminho não exige salto no escuro em nenhum ponto)
-5. A meta de R$ 83 mil/mês é para 24 meses, não para 90 dias
-
-## A regra que sustenta tudo
-
-Este caminho falha de um jeito só: **trocar de estratégia a cada 3 semanas.** Ele funciona por acúmulo — cada artigo, PR e contato soma no mesmo lugar. A decisão já está tomada; a partir de agora a única pergunta semanal é a do `08-pipeline-semanal.md`: *"cumpri os números mínimos desta semana?"*
+Este caminho falha de um jeito só: trocar de estratégia a cada 3 semanas. A pergunta semanal continua sendo a do `08-pipeline-semanal.md`: *"cumpri os números mínimos desta semana?"*

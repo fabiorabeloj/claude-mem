@@ -1,46 +1,44 @@
-# Outreach — rascunhos preenchidos
+# Outreach — v2, calibrado no perfil real (automação de IA para negócios)
 
-Prontos para enviar após preencher `[LACUNAS]`. Só envie a versão A depois de ter ao menos 1 prova pública do plano (artigo publicado OU PR aceita) — sem isso o e-mail perde a força.
+Alvo agora: pequenos e médios negócios (BR e US), não vagas sênior. Prontos para enviar após preencher `[LACUNAS]`.
 
-## A) Vaga remota US — AI tooling (EN)
+## A) Negócio local BR — WhatsApp/e-mail frio (o principal no degrau 1)
 
-> **Subject:** `[ROLE]` — deep in the Claude Code ecosystem
+> Olá, `[NOME]`! Vi `[ALGO REAL — o Instagram da loja, o site, uma avaliação no Google]`.
 >
-> Hi `[FIRST NAME]`,
+> Trabalho automatizando com IA as tarefas que mais tomam tempo de negócios como o seu — por exemplo: `[ESCOLHA 1 RELEVANTE: responder as perguntas repetidas de clientes no WhatsApp / agendamentos / passar pedidos pra planilha ou sistema / montar relatórios]`.
 >
-> I saw `[COMPANY]` is hiring a `[ROLE]`. Reaching out directly because my work overlaps unusually well: I work deep in the Claude Code plugin ecosystem — I've `[ESCOLHA O VERDADEIRO: contributed to / written an architecture deep-dive on]` claude-mem, the persistent-memory plugin for Claude Code (hook-based capture, LLM compression via the Agent SDK, SQLite + Chroma retrieval).
->
-> Two relevant things:
-> - `[CONFIRME: realização 1 com número]`
-> - Wrote this deep-dive on LLM memory architecture: `[LINK DO ARTIGO]`
->
-> Worth a 20-minute chat this week?
+> Entrego em 1 a 3 semanas, com preço fechado e combinado antes. Posso te mostrar em 15 minutos como funcionaria aí? Se não fizer sentido, sem compromisso nenhum.
 >
 > Fabio
 
-**Onde achar alvos:** vagas com "AI engineer", "agent", "LLM tooling", "developer tools" em: Anthropic partners, empresas de devtools com produto MCP, YC companies (workatastartup.com), RemoteOK/WeWorkRemotely filtrando US$ 150k+.
+**Onde achar alvos:** comércios e serviços que você já frequenta (começar por quem te conhece) · negócios com WhatsApp movimentado e atendimento lento · clínicas, escolas, imobiliárias, contabilidades da sua cidade.
 
-## B) Consultoria BR — decisor de empresa média (PT)
+## B) Cliente US — proposta Upwork / DM (em inglês, seu diferencial)
 
-> **Assunto:** IA em produção na `[EMPRESA]`
+> Hi `[NAME]`,
 >
-> Olá `[NOME]`,
+> I read your post about `[NECESSIDADE ESPECÍFICA DO JOB]`. I can build exactly that: `[1 FRASE — o que você entregaria]`, delivered in `[X]` weeks at a fixed price.
 >
-> `[LINHA PERSONALIZADA — obrigatória: notícia, post ou produto da empresa]`.
+> I specialize in practical AI automation for small businesses — chatbots, workflow automation, and AI assistants trained on your docs. I communicate in fluent English and work US-friendly hours.
 >
-> Trabalho implantando agentes de IA que saem do piloto e chegam em produção — integrados aos sistemas que a empresa já usa (ERP, CRM, helpdesk). Uso a stack de agentes da Anthropic (Claude, Agent SDK, MCP), a mesma sobre a qual escrevo e contribuo em open source: `[LINK DO ARTIGO/GITHUB]`.
+> `[APÓS TER CASOS: Recent example: (caso com número).]`
 >
-> Projetos de 4 a 8 semanas, escopo e preço fechados. Faz sentido uma conversa de 20 minutos para eu entender se há um caso claro aí? Se não houver, eu mesmo te digo.
+> Happy to do a quick call, or I can send a short plan for your review first — whichever you prefer.
 >
-> Fabio Rabelo
+> Fabio
 
-**Onde achar alvos:** empresas que postaram vaga de "analista de IA"/"dados" mas não têm time de engenharia de IA (sinal de dor sem músculo interno); pedidos de indicação de "quem implementa IA" em grupos de WhatsApp/LinkedIn de gestores; clientes de agências de software local sem braço de IA (parceria: eles indicam, você paga 10–15% de comissão).
+**Regras do Upwork no início:** propostas 100% personalizadas (nada de template visível) · pegar jobs pequenos e bem definidos · preço competitivo até as primeiras 5 avaliações 5 estrelas · responder rápido (primeira hora ganha o job).
 
 ## C) Reativação de rede (PT) — enviar esta semana, sem pré-requisito
 
 > Oi `[NOME]`, tudo bem? `[COMO SE CONHECERAM]`.
 >
-> Estou focando em engenharia de IA — agentes, ecossistema Claude, memória persistente pra LLMs. Se você souber de alguém (empresa ou pessoa) tentando tirar um projeto de IA do papel, adoraria uma apresentação. E me conta das novidades aí!
+> Comecei a trabalhar com automação de IA pra empresas — chatbot de atendimento, automação de tarefas repetitivas, assistentes internos. Se você conhecer algum negócio (ou o seu!) perdendo tempo com tarefa manual, adoraria uma apresentação. E me conta das novidades!
 
-**Lista de 10 nomes para reativar (preencha agora, é a ação de maior retorno da semana):**
+**Lista de 10 nomes (preencha agora — é a maior fonte do primeiro cliente):**
 1. `[NOME]` · 2. `[NOME]` · 3. `[NOME]` · 4. `[NOME]` · 5. `[NOME]` · 6. `[NOME]` · 7. `[NOME]` · 8. `[NOME]` · 9. `[NOME]` · 10. `[NOME]`
+
+## D) Follow-up e fechamento
+
+Sequências do `05-follow-up.md` valem inalteradas. Na call de 15 min: perguntar *"qual tarefa mais toma tempo do seu time hoje?"*, estimar as horas que ela come por mês e propor no dia seguinte com preço fechado (`04-precificacao.md`, adaptando a faixa para R$ 1.500–5.000 no início).

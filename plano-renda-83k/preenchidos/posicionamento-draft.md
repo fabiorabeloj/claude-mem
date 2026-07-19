@@ -1,28 +1,30 @@
-# Posicionamento — rascunho preenchido
+# Posicionamento — v2, calibrado no perfil real
 
-Duas variantes. Escolha UMA conforme o cesto prioritário (`09-cestos-de-ovos.md`) e apague a outra.
+Perfil: <2 anos programando, constrói com IA, inglês fluente. Posicionamento honesto: **especialista em automação de IA para negócios** — nada de fingir senioridade em engenharia; a autoridade vem de resultado entregue a cliente, não de anos de código.
 
-## Variante A — foco em vaga internacional (cesto 1)
+## Headline (LinkedIn — PT)
 
-**Headline (LinkedIn/X, EN):**
-> Software Engineer — AI agent tooling & LLM memory systems | `[CONFIRME: X]` years in `[CONFIRME: stack principal, ex.: TypeScript/Node]` | Open-source contributor (Claude Code ecosystem)
+> Automação com IA para negócios | Atendimento, processos e assistentes internos que funcionam de verdade | Atendo em PT e EN
 
-**Bio curta (EN):**
-> I'm Fabio, a software engineer focused on AI agent tooling. I work deeply with the Claude Code ecosystem — including claude-mem, a persistent-memory plugin whose architecture (hook-based capture, SDK-driven compression, SQLite + Chroma retrieval) I've studied and written about. Previously, I `[CONFIRME: experiência anterior com 1 número — ex.: built X used by Y]`. I'm looking to build developer-facing AI infrastructure.
+## Headline (LinkedIn/Upwork — EN)
 
-## Variante B — foco em consultoria no Brasil (cesto 2)
+> AI Automation Specialist | Chatbots, workflow automation & custom AI assistants for small businesses | Fluent English, competitive rates
 
-**Headline (PT):**
-> Implanto agentes de IA que chegam em produção | Ecossistema Claude/LLMs | Projetos de escopo fechado
+## Bio curta (PT)
 
-**Bio curta (PT):**
-> Sou Fabio, engenheiro de software especializado em levar IA de piloto para produção. Trabalho com o ecossistema de agentes da Anthropic (Claude Code, Agent SDK, MCP) e com os blocos que fazem agentes funcionarem de verdade: memória persistente, integração com sistemas legados e observabilidade. Atendo `[CONFIRME: público — ex.: empresas de médio porte]` em projetos de 4 a 8 semanas com escopo e preço fechados.
+> Sou Fabio, especialista em automação com IA. Implemento para pequenas e médias empresas o que a IA já faz bem hoje: atendimento automatizado (site/WhatsApp), processos repetitivos que somem da rotina do time e assistentes treinados nos documentos da empresa. Projetos pequenos, preço fechado, entrega em 1–3 semanas. `[APÓS 1º CASO: adicionar "Último caso: reduzi X h/semana do atendimento da empresa Y."]`
 
-**Elevator pitch (PT):**
-> Toda empresa tem um piloto de IA parado que nunca virou produção. Eu resolvo isso: implanto agentes integrados aos sistemas que a empresa já usa, com prazo e preço fechados. Trabalho com a mesma stack de agentes que uso e estudo diariamente no ecossistema Claude.
+## Bio curta (EN — Upwork/clientes US)
 
-## Prova pública — plano de construção (nenhuma inventada)
+> I'm Fabio, an AI automation specialist based in Brazil. I build practical AI solutions for small businesses: customer-support chatbots, workflow automation, and custom AI assistants trained on your documents. Fixed price, 1–3 week delivery, fluent English communication. `[APÓS 1º CASO US: "Recent project: ..."]`
 
-1. **Já verdadeiro hoje:** fork ativo do claude-mem + estudo da arquitetura → vira o artigo do `post-tecnico-draft-EN.md`.
-2. **Verdadeiro em ~2 semanas:** 1ª PR aceita no upstream (`thedotmack/claude-mem` tem issues abertas — ver `plano-30-dias.md`) → habilita "open-source contributor".
-3. **Verdadeiro em ~1 mês:** artigo publicado + thread → habilita "I've written about LLM memory systems".
+## Elevator pitch (PT — para a call)
+
+> Todo negócio tem tarefa repetitiva comendo horas do time: responder as mesmas perguntas, passar dado de um sistema pro outro, montar relatório. Eu automatizo isso com IA em 1 a 3 semanas, com preço fechado. Me conta a tarefa que mais toma tempo aí que eu te digo na hora se dá pra automatizar.
+
+## Regras deste posicionamento
+
+1. **Nunca** se apresentar como "desenvolvedor sênior" ou "engenheiro de IA" — na primeira pergunta técnica funda, quebra. "Especialista em automação" é 100% defensável: você automatiza e entrega.
+2. A prova pública do seu perfil não é artigo de arquitetura — é **caso com número**. Cada projeto vira 1 parágrafo: problema → o que fiz → resultado medido.
+3. O inglês vai em destaque em TUDO (é o seu diferencial mais raro).
+4. Quando os fundamentos crescerem (degrau 2–3), o título evolui junto: "AI automation" → "AI solutions engineer". O posicionamento acompanha a verdade, nunca corre na frente dela.

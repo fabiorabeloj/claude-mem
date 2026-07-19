@@ -1,47 +1,49 @@
-# Plano de 30 Dias — Fase 1 executável
+# Plano de 30 Dias — v2 (primeiros clientes de automação de IA)
 
-Detalhamento da Fase 1 do plano em ações com entregável verificável por semana. Carga: ~10h/semana além do trabalho atual. Regra: se a semana apertar, corte pela metade — nunca pule uma semana inteira.
+Objetivo do mês: **1º cliente pago**. Carga: ~10h/semana. Regra: prospecção nunca é pulada — sem conversa, não há cliente.
 
-## Semana 1 — Fundação (posicionamento + rede)
+## Semana 1 — Base + rede no ar
 
-- [ ] Escolher a variante do `posicionamento-draft.md` (A = vaga US, B = consultoria BR) e preencher os `[CONFIRME]`
-- [ ] Atualizar LinkedIn e GitHub com a headline e bio escolhidas
-- [ ] Preencher a lista de 10 nomes do `outreach-drafts.md` (seção C) e **enviar as 10 mensagens de reativação**
-- [ ] Criar a planilha de pipeline (copiar tabela do `08-pipeline-semanal.md`)
+- [ ] Atualizar LinkedIn com headline e bio do `posicionamento-draft.md` (PT e EN)
+- [ ] Preencher a lista de 10 nomes (`outreach-drafts.md` seção C) e **enviar as 10 mensagens** — do seu jeito, sem formalidade
+- [ ] Escolher as 2 ofertas iniciais (sugestão: chatbot WhatsApp + automação de tarefas repetitivas)
+- [ ] Montar 1 demo genérica de cada oferta para mostrar em call (algo seu, funcionando, em 2 min de vídeo ou tela)
 
-**Entregável da semana:** perfis atualizados + 10 mensagens enviadas + pipeline criado.
+**Entregável:** perfis no ar + 10 mensagens enviadas + 2 demos prontas.
 
-## Semana 2 — Primeira prova pública (contribuição open source)
+## Semana 2 — Prospecção BR
 
-- [ ] Abrir `github.com/thedotmack/claude-mem/issues`, filtrar por `good first issue`/bugs reproduzíveis e escolher 1 tratável
-- [ ] Reproduzir o bug no seu fork, corrigir, abrir PR no upstream (descrição caprichada — PRs bem descritas de desconhecidos são aceitas quando dão trabalho zero ao maintainer)
-- [ ] Enquanto a PR espera: revisar o `post-tecnico-draft-EN.md` contra o código atual e validar cada afirmação técnica
-- [ ] Responder quem retornou da reativação; agendar cafés/calls sem pressa de vender
+- [ ] Listar 20 negócios locais com dor visível (WhatsApp lento, agendamento manual, avaliações reclamando de demora)
+- [ ] Enviar 15 mensagens do modelo A (personalizadas na 1ª linha)
+- [ ] Responder retornos da rede; marcar calls de 15 min sem medo — o roteiro é uma pergunta só: *"qual tarefa mais toma tempo do seu time?"*
+- [ ] Criar a planilha de pipeline (`08-pipeline-semanal.md`)
 
-**Entregável da semana:** 1 PR aberta no upstream + artigo revisado tecnicamente.
+**Entregável:** 15 contatos frios + toda resposta com próxima ação agendada.
 
-## Semana 3 — Publicação e distribuição
+## Semana 3 — Canal US + follow-ups
 
-- [ ] Finalizar o artigo (adicionar o diagrama do pipeline — excalidraw resolve) e publicar no dev.to + LinkedIn
-- [ ] Executar o checklist de distribuição do rascunho (thread no X, HN no dia 2, Discord do claude-mem)
-- [ ] Preparar o currículo com `07-curriculo-us.md` (variante A) OU a proposta-base com `03-proposta-consultoria.md` (variante B)
-- [ ] Follow-up dia 7 nas mensagens sem resposta (`05-follow-up.md`, sequência C)
+- [ ] Criar/ajustar perfil no Upwork (bio EN do posicionamento) e enviar 10 propostas do modelo B em jobs pequenos de "AI chatbot/automation"
+- [ ] Follow-up dia 7 em todo mundo que não respondeu (sequência C do `05-follow-up.md`)
+- [ ] Primeira proposta enviada? Usar `03-proposta-consultoria.md` simplificado: problema → o que entrego → prazo → preço fechado (R$ 1.500–5.000)
 
-**Entregável da semana:** artigo publicado e distribuído + currículo ou proposta-base prontos.
+**Entregável:** canal US ativo + zero follow-up atrasado + 1ª proposta na rua.
 
-## Semana 4 — Prospecção com prova na mão
+## Semana 4 — Fechamento + retrospectiva
 
-- [ ] Variante A: 10 applications adaptadas + 5 e-mails diretos (modelo A do `outreach-drafts.md`, agora com o link do artigo)
-- [ ] Variante B: 15 e-mails frios (modelo B) + mapear 3 agências locais para proposta de parceria
-- [ ] Sexta: preencher as métricas do `08-pipeline-semanal.md` pela primeira vez e rodar o diagnóstico de gargalo
-- [ ] Definir as metas do mês 2 com base no que o diagnóstico mostrar
+- [ ] Insistir nos leads mornos (a maioria fecha entre o 2º e o 3º toque)
+- [ ] Fechou? Entregar rápido e COMBINAR O DEPOIMENTO já no início ("no final, te peço 3 linhas de avaliação, pode ser?")
+- [ ] Sexta: preencher métricas do `08` e rodar o diagnóstico de gargalo
+- [ ] Planejar o mês 2 com base no diagnóstico
 
-**Entregável da semana:** 15+ contatos de prospecção feitos + retrospectiva escrita.
+**Entregável:** 1º cliente pago (ou pipeline com 3+ propostas ativas) + retrospectiva escrita.
 
-## Estado ao fim dos 30 dias (o que deve ser verdade)
+## O que deve ser verdade no dia 30
 
-1. Posicionamento público no ar, honesto e específico
-2. 1 PR no upstream (aberta ou aceita) — prova de código
-3. 1 artigo técnico em inglês publicado — prova de comunicação
-4. Pipeline com 25+ contatos e primeiras respostas
-5. Ritmo semanal rodando — o que a meta de R$ 83 mil realmente exige daqui pra frente
+1. Posicionamento honesto no ar (PT + EN)
+2. 40+ conversas iniciadas (10 rede + 15 BR frio + 10 US + follow-ups)
+3. 1º cliente pago OU 3 propostas em negociação
+4. Ritmo semanal instalado — é ele que constrói os degraus seguintes
+
+## Fundamentos (só a partir do mês 3)
+
+De propósito, este mês NÃO tem estudo de fundamentos: primeiro cliente, depois teoria. A partir do mês 3, entram as 5h/semana descritas no `caminho-profissional.md`.
