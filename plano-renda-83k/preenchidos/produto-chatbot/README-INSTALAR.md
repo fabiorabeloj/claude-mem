@@ -22,7 +22,7 @@ ANTHROPIC_API_KEY=sk-ant-SUACHAVE node server.js
 $env:ANTHROPIC_API_KEY="sk-ant-SUACHAVE"; node server.js
 ```
 
-5. Abra **http://localhost:3000** e converse. É IA real: pergunte qualquer coisa sobre a clínica de exemplo — inclusive coisas fora do roteiro — e veja como ele responde e conduz para o agendamento.
+5. Abra **http://localhost:3000** e converse. É IA real, e o cliente exemplo é **o seu próprio negócio**: o bot explica seus serviços, seus preços e agenda a conversa de 15 min coletando nome + WhatsApp. Pergunte qualquer coisa — inclusive fora do roteiro — e veja como ele conduz.
 
 ## Trocar para o negócio de um cliente
 
@@ -49,9 +49,13 @@ Railway (railway.app) ou Render (render.com) — planos gratuitos/baratos:
 - **Memória entre reinícios:** o histórico das conversas vive em memória; reiniciou, zerou. Suficiente para começar; banco de dados entra na fase 2.
 - **Painel do cliente:** relatório de conversas/leads é outro upgrade vendável.
 
+## Conectar ao seu site (depois do deploy)
+
+Com o bot no ar (Railway/Render), adicione um botão "🤖 Fale com meu assistente de IA" no `site-fabio/index.html` apontando para a URL pública do bot. Assim todo visitante do seu site vive a demonstração sozinho — o site vende, o bot atende, e os dois provam o produto.
+
 ## Roteiro de demonstração na call de venda
 
-1. Abra o chat e diga: *"pergunta qualquer coisa, do jeito que seu cliente perguntaria"*
+1. Abra o chat e diga: *"conversa com ele — esse é o assistente que atende o MEU negócio"*
 2. Deixe o dono do negócio testar — inclusive pegadinhas (o bot não inventa; encaminha para humano)
 3. Mostre o `negocio.md`: *"tudo que ele sabe está neste arquivo — no seu caso, serão as SUAS informações"*
-4. Feche com: *"em 2 semanas, isso está respondendo os seus clientes"*
+4. Feche com: *"em 2 semanas, um igual a esse está respondendo os seus clientes"*

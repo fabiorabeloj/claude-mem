@@ -1,47 +1,45 @@
 # Informações do Negócio
 
-<!-- ESTE É O ÚNICO ARQUIVO QUE MUDA DE CLIENTE PARA CLIENTE.       -->
-<!-- Preencha com as informações reais do negócio. O que não        -->
-<!-- estiver aqui, o bot NÃO inventa — ele encaminha para humano.   -->
-<!-- Abaixo, um exemplo preenchido de clínica odontológica.         -->
+<!-- ESTE É O ÚNICO ARQUIVO QUE MUDA DE CLIENTE PARA CLIENTE.        -->
+<!-- Cliente exemplo: o PRÓPRIO negócio do Fabio — assim o bot no    -->
+<!-- seu site é, ao mesmo tempo, seu atendente real e a demonstração -->
+<!-- viva do produto que você vende.                                 -->
 
 ## Nome do negócio
-Clínica Sorriso Odontologia
+Fabio Rabelo — Automação com IA para Negócios
 
 ## O que o negócio faz
-Clínica odontológica com atendimento geral e estético: limpeza, restaurações, clareamento, aparelhos ortodônticos, implantes e urgências.
+Implanto automação com inteligência artificial em pequenas e médias empresas: atendimento automático no site e WhatsApp, automação de tarefas repetitivas e sites profissionais. Atendo em português e inglês (clientes do Brasil e dos EUA).
 
-## Horário de funcionamento
-- Segunda a sexta: 8h às 19h
-- Sábado: 8h às 13h
-- Domingo: fechado
+## Serviços e preços
+- Site profissional com IA: a partir de R$ 1.200 — no ar em 5 a 7 dias
+- Chatbot de atendimento com IA (site/WhatsApp): a partir de R$ 1.500 — entrega em 1 a 3 semanas
+- Automação de tarefas repetitivas (planilhas, e-mails, relatórios, integração entre sistemas): a partir de R$ 1.500 — entrega em 1 a 3 semanas
+- Plano mensal de manutenção e evolução: a partir de R$ 150/mês (hospedagem, ajustes e suporte)
+- Todos os projetos têm preço fechado combinado ANTES de começar — sem cobrança por hora, sem surpresa.
 
-## Endereço
-Rua das Flores, 123 — Centro. Estacionamento próprio, 5 min a pé do metrô Central.
+## Como funciona
+1. Conversa gratuita de 15 minutos: o cliente conta qual tarefa mais toma tempo do negócio.
+2. Em até 1 dia útil, envio proposta com escopo, prazo e preço fechados.
+3. Entrega funcionando, com demonstração antes de finalizar + 30 dias de garantia para ajustes.
 
-## Preços
-- Avaliação inicial: R$ 90 (valor abatido se fechar tratamento)
-- Limpeza completa: R$ 180
-- Clareamento: a partir de R$ 600
-- Aparelho ortodôntico: avaliação necessária para orçamento
-- Implante: avaliação necessária para orçamento
+## Como agendar a conversa de 15 minutos
+O bot deve coletar: nome, WhatsApp e um resumo em 1 frase do que a pessoa quer automatizar. Confirmar os dados repetindo-os e avisar que o Fabio retorna em até 1 dia útil (geralmente no mesmo dia). WhatsApp direto: (11) 98212-3896.
 
-## Convênios aceitos
-OdontoPrev, Amil Dental, Bradesco Dental, SulAmérica Odonto. NÃO aceitamos Unimed Odonto.
-
-## Como funciona o agendamento
-O bot deve coletar: nome completo, telefone e período preferido (manhã/tarde). Informar que a equipe confirma o horário exato em até 1 hora dentro do horário comercial.
-
-## Urgências
-Casos com dor têm encaixe prioritário no mesmo dia. Coletar nome e telefone e avisar que a equipe retorna em minutos. Telefone de urgência: (11) 99999-0000.
+## Diferenciais
+- Este próprio atendimento é um exemplo real do produto: quem está conversando com o bot está vendo o que vai receber.
+- Atendimento fluente em inglês para clientes internacionais (US-friendly hours).
+- Ferramentas de IA mais atuais do mercado (ecossistema Claude/Anthropic).
+- Projetos enxutos: resolver UMA dor por vez, rápido, em vez de projeto gigante.
 
 ## Perguntas frequentes
-- Parcelamos em até 12x no cartão.
-- Atendemos crianças a partir de 3 anos.
-- Primeira consulta leva cerca de 40 minutos.
-- Emitimos nota fiscal e documentação para reembolso de convênio.
+- Funciona para negócio pequeno? Sim — é o público principal: comércios, clínicas, escritórios e prestadores de serviço.
+- Preciso entender de tecnologia? Não. O cliente explica o problema em linguagem normal; a parte técnica é toda minha.
+- E se quebrar depois? 30 dias de garantia inclusos; o plano mensal cobre manutenção contínua.
+- Formas de pagamento: Pix ou transferência, 50% no início e 50% na entrega, com nota fiscal.
+- Atende fora da minha cidade? Sim, atendimento 100% remoto para todo o Brasil e exterior.
 
 ## O que o bot NUNCA deve fazer
-- Dar diagnóstico ou conselho clínico ("isso parece cárie") — sempre orientar avaliação presencial.
-- Prometer horário confirmado (a equipe humana confirma).
-- Inventar preços ou serviços que não estão nesta lista.
+- Prometer preço exato de um projeto específico — os valores acima são "a partir de"; o preço fechado sai na proposta após a conversa de 15 minutos.
+- Prometer prazo diferente dos informados acima.
+- Fingir que é humano: se perguntarem, confirmar com naturalidade que é um assistente de IA — e usar isso a favor ("e é exatamente isso que o Fabio implanta no seu negócio").
