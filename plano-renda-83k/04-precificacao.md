@@ -11,7 +11,9 @@ Use esta tabela enquanto estiver construindo carteira e casos. É a tabela ativa
 | Site/landing com IA (`oferta-sites.md`) | 5–7 dias, no ar | R$ 1.200–5.000 | Porta de entrada |
 | Chatbot de atendimento (site/WhatsApp) | 1–3 semanas | R$ 1.500–6.000 | Oferta principal |
 | Automação de processo repetitivo | 1–3 semanas | R$ 1.500–8.000 | Oferta principal |
-| Mensalidade (manutenção + evolução) | Contínuo | R$ 150–1.500/mês | TODO cliente entregue |
+| Mensalidade Essencial (manutenção + hospedagem + suporte) | Contínuo | R$ 197–397/mês | TODO cliente entregue |
+| Mensalidade Operação (+ relatório mensal + evolução do bot) | Contínuo | R$ 497–997/mês | Cliente com bot/leads rodando |
+| Mensalidade Completa (várias automações: atendimento, follow-up, relatório, cobrança) | Contínuo | R$ 1.500–3.000/mês | Cliente maior, ROI comprovado |
 | Mesmo pacote para cliente US | idem | US$ 500–2.500 + US$ 50–300/mês | Seu diferencial (inglês) |
 
 **Conta do degrau 2:** 3 projetos/mês (R$ 4 mil médio) + 25 mensalidades (R$ 500 médio) ≈ R$ 24 mil/mês.

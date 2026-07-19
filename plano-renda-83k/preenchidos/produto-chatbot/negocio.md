@@ -15,7 +15,7 @@ Implantamos automação com inteligência artificial em pequenas e médias empre
 - Site profissional com IA: a partir de R$ 1.200 — no ar em 5 a 7 dias
 - Chatbot de atendimento com IA (site/WhatsApp): a partir de R$ 1.500 — entrega em 1 a 3 semanas
 - Automação de tarefas repetitivas (planilhas, e-mails, relatórios, integração entre sistemas): a partir de R$ 1.500 — entrega em 1 a 3 semanas
-- Plano mensal de manutenção e evolução: a partir de R$ 150/mês (hospedagem, ajustes e suporte)
+- Planos mensais: Essencial a partir de R$ 197/mês (manutenção, hospedagem e suporte) · Operação a partir de R$ 497/mês (inclui relatório mensal e evolução do atendente) · Completo a partir de R$ 1.500/mês (várias automações rodando: atendimento, follow-up, relatórios, cobrança)
 - Todos os projetos têm preço fechado combinado ANTES de começar — sem cobrança por hora, sem surpresa.
 
 ## Como funciona
