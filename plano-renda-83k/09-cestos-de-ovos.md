@@ -9,7 +9,7 @@ Princípio: R$ 83 mil/mês vindos de UMA fonte é frágil (um contrato cancelado
 | 1 | **Contrato âncora** (emprego/PJ internacional) | Troca tempo por dinheiro, alto valor | 3–12 meses | R$ 60–120 mil | Alto (é o trabalho) |
 | 2 | **Consultoria pontual** (1 projeto/trimestre) | Troca tempo por dinheiro, picos | 3–9 meses | R$ 15–25 mil (média/mês) | Médio |
 | 3 | **Produto/SaaS** (ex.: tier pago do claude-mem) | Escala sem tempo linear | 12–36 meses | Ilimitado (começa em centenas) | Médio no início, baixo depois |
-| 4 | **Conteúdo monetizado** (curso, newsletter paga, patrocínio) | Escala a audiência que você já constrói | 12–24 meses | R$ 5–30 mil | Baixo (subproduto do `06-post-tecnico.md`) |
+| 4 | **Conteúdo monetizado** (PDFs/guias, curso, newsletter paga) | Escala a audiência que você já constrói | 3–24 meses | R$ 5–30 mil | Baixo (plano executável: `preenchidos/cesto-produtos-digitais.md`) |
 | 5 | **Investimentos** (o cesto que compra os outros) | Dinheiro trabalhando | Imediato, cresce devagar | Cresce com o aporte | Quase zero |
 
 ## A sequência certa (não pule etapas)
