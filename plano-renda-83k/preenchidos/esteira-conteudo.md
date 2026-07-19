@@ -77,6 +77,15 @@ Sem casos ainda? A esteira começa com o que você já tem:
 
 **Me peça qualquer um desses que eu escrevo a versão completa agora.**
 
+## Distribuição automatizada (liga a esteira no piloto automático)
+
+Duas ferramentas resolvem a logística de publicar — configure 1 vez:
+
+1. **Metricool (plano grátis):** agende o pacote da semana inteira de uma vez (Instagram, LinkedIn, Facebook, TikTok) num domingo à noite, 20 min. Sem abrir rede social todo dia — o que também evita o buraco de ficar rolando feed.
+2. **Áudio como matéria-prima:** grave um áudio de WhatsApp para você mesmo contando o caso da semana e me mande a transcrição (o próprio WhatsApp transcreve, ou use qualquer transcritor). Falar é 5x mais rápido que escrever — e eu transformo em todos os formatos.
+
+Fluxo final da esteira: **áudio de 5 min (seu) → eu gero os 5 formatos → Metricool agenda a semana (20 min) → pronto.** Total: ~40 min/semana para presença diária em 4 redes.
+
 ## Métricas (olhar 1x/mês, não por post)
 
 - Conversas no WhatsApp iniciadas vindas de conteúdo (a ÚNICA métrica que importa)
