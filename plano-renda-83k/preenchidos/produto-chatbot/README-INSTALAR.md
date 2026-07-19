@@ -12,17 +12,35 @@ Este é o **produto que você entrega ao cliente**: um chatbot com IA de verdade
 npm install
 ```
 
-4. **Inicie o servidor com a sua chave:**
+4. **Inicie o servidor com a sua chave** (e uma senha para o painel de leads):
 
 ```bash
 # Mac/Linux:
-ANTHROPIC_API_KEY=sk-ant-SUACHAVE node server.js
+ANTHROPIC_API_KEY=sk-ant-SUACHAVE ADMIN_TOKEN=escolha-uma-senha node server.js
 
 # Windows (PowerShell):
-$env:ANTHROPIC_API_KEY="sk-ant-SUACHAVE"; node server.js
+$env:ANTHROPIC_API_KEY="sk-ant-SUACHAVE"; $env:ADMIN_TOKEN="escolha-uma-senha"; node server.js
 ```
 
 5. Abra **http://localhost:3000** e converse. É IA real, e o cliente exemplo é **o seu próprio negócio**: o bot explica seus serviços, seus preços e agenda a conversa de 15 min coletando nome + WhatsApp. Pergunte qualquer coisa — inclusive fora do roteiro — e veja como ele conduz.
+
+## Painel de leads (novo)
+
+Quando alguém deixa nome + WhatsApp na conversa, a IA registra o lead sozinha (ferramenta `registrar_lead`). Você vê tudo em:
+
+- **Painel:** `http://localhost:3000/admin?token=SUA-SENHA` — tabela com quando, nome, WhatsApp, interesse e canal
+- **API:** `/leads?token=SUA-SENHA` — os mesmos dados em JSON (para integrar com planilha depois)
+- Os dados ficam em `data/leads.jsonl` e as conversas em `data/conversas/` — **sobrevivem a reinícios** e ficam fora do git.
+
+## WhatsApp de verdade (opcional — via Z-API)
+
+O mesmo bot pode atender no número de WhatsApp do negócio:
+
+1. Crie uma instância no z-api.io (plano pago, ~R$ 100/mês — custo repassado ao cliente na mensalidade)
+2. No painel do Z-API, configure o webhook "Ao receber" para `https://SEU-SERVIDOR/webhook/zapi`
+3. Suba o servidor com mais 2 variáveis: `ZAPI_URL=https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN` e `ZAPI_CLIENT_TOKEN=seu_client_token`
+
+Pronto: mensagens recebidas no WhatsApp passam pela mesma IA e são respondidas no próprio WhatsApp, com leads caindo no mesmo painel (canal "whatsapp").
 
 ## Trocar para o negócio de um cliente
 
