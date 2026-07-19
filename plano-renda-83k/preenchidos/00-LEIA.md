@@ -14,3 +14,4 @@ Este repositório é um **fork** do `thedotmack/claude-mem` (criado por Alex New
 | `post-tecnico-draft-EN.md` | Rascunho completo em inglês | Revisar, testar os trechos citados, publicar |
 | `outreach-drafts.md` | E-mails prontos com lacunas | Inserir nome do alvo e a linha personalizada |
 | `plano-30-dias.md` | Pronto | Executar 😄 |
+| `caminho-profissional.md` | Pronto — rota única em 4 degraus | Validar as 5 premissas do final |
