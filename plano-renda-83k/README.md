@@ -10,6 +10,7 @@
 4. **`preenchidos/outreach-drafts.md`** — mensagens prontas para rede, negócios BR e clientes US.
 5. **`preenchidos/oferta-sites.md`** — oferta de entrada completa: briefing, prompt, entrega e mensalidade.
 6. **`preenchidos/site-fabio/`** — seu próprio site profissional, pronto para publicar (instruções incluídas).
+7. **`preenchidos/operacao-formalizada.md`** — o documento-mestre: as 8 formas de lucro com todas as etapas + CNPJ, impostos, contrato padrão e como receber (BR e US).
 
 ## Modelos universais de apoio (consulte quando precisar)
 
