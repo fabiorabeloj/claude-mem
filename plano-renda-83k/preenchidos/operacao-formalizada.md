@@ -1,6 +1,23 @@
 # Operação Formalizada — todas as formas de lucro, todas as etapas
 
-Este é o documento-mestre da operação: cada forma de lucro do plano, formalizada de ponta a ponta. **Aviso honesto:** nas partes jurídica e tributária eu dou o mapa e os valores típicos, mas a decisão final é com um contador (custa R$ 150–400/mês e se paga — é a primeira contratação da sua empresa).
+Este é o documento-mestre da operação: cada forma de lucro do plano, formalizada de ponta a ponta.
+
+## Seus dois trunfos (advogada + contador na família)
+
+Você tem de graça o que a maioria paga caro. Use com pedidos específicos:
+
+**Para o contador da família (leva a Parte 1 e a linha do tempo da Parte 4):**
+1. "Preciso abrir um CNPJ para prestar serviços de desenvolvimento de sites, automação e consultoria em TI. MEI cabe nessas atividades ou vou direto de ME no Simples? Quais CNAEs você usaria?"
+2. "Qual o % real de imposto que devo reservar de cada recebimento no meu enquadramento?"
+3. "Como configuro a emissão de NFS-e na minha cidade, e como emito nota de exportação de serviço quando atender cliente dos EUA (tem benefício fiscal nisso)?"
+4. "A partir de que faturamento vale definir pró-labore e revisar o anexo do Simples?"
+
+**Para sua mãe (leva o contrato da Parte 3):**
+1. "Revisa e ajusta este modelo de contrato de prestação de serviços para eu usar como padrão? Meus projetos são de R$ 1.200 a 8.000, prazo de 1 a 3 semanas, pagamento 50/50."
+2. "Me faz também o termo de 1 página da mensalidade (escopo mensal, cobrança recorrente, cancelamento com 30 dias)?"
+3. "Aceite por e-mail/assinatura digital resolve nesses valores, ou você recomenda plataforma de assinatura?"
+
+Com os dois, a formalização inteira (Partes 1 e 3) sai em poucos dias e custo ~zero.
 
 ---
 
