@@ -14,6 +14,7 @@ Modelos prontos para executar os três caminhos do plano (emprego internacional,
 | `06-post-tecnico.md` | Estrutura de artigo técnico em inglês | 2x/mês para construir autoridade |
 | `07-curriculo-us.md` | Currículo padrão americano (1 página) | Aplicações para vagas remotas US |
 | `08-pipeline-semanal.md` | Rotina semanal + rastreador de pipeline | Toda segunda-feira |
+| `09-cestos-de-ovos.md` | Diversificação de fontes de renda (5 cestos) | Revisão trimestral da estratégia |
 
 ## Regra de ouro
 
