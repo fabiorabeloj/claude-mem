@@ -2,7 +2,23 @@
 
 Princípio: preço se ancora no **valor do problema para o cliente**, não no seu custo-hora. A pergunta da call de diagnóstico que destrava isso: *"Quanto esse problema custa para vocês por mês, em horas ou dinheiro?"* — o projeto deve custar entre 10% e 30% do custo anual do problema.
 
-## Tabela de ofertas (escada de valor)
+## Tabela de ofertas — Estágio 1 (degraus 1–2 do caminho: automação para negócios)
+
+Use esta tabela enquanto estiver construindo carteira e casos. É a tabela ativa hoje.
+
+| Oferta | Formato | Faixa de preço | Para quem |
+|--------|---------|---------------|-----------|
+| Site/landing com IA (`oferta-sites.md`) | 5–7 dias, no ar | R$ 1.200–5.000 | Porta de entrada |
+| Chatbot de atendimento (site/WhatsApp) | 1–3 semanas | R$ 1.500–6.000 | Oferta principal |
+| Automação de processo repetitivo | 1–3 semanas | R$ 1.500–8.000 | Oferta principal |
+| Mensalidade (manutenção + evolução) | Contínuo | R$ 150–1.500/mês | TODO cliente entregue |
+| Mesmo pacote para cliente US | idem | US$ 500–2.500 + US$ 50–300/mês | Seu diferencial (inglês) |
+
+**Conta do degrau 2:** 3 projetos/mês (R$ 4 mil médio) + 25 mensalidades (R$ 500 médio) ≈ R$ 24 mil/mês.
+
+## Tabela de ofertas — Estágio 2 (degrau 3+: consultoria de maior porte)
+
+Ativar quando tiver 10+ casos documentados e fundamentos sólidos. Guardada aqui como o mapa de para onde os preços evoluem:
 
 | Oferta | Formato | Faixa de preço | Para quem |
 |--------|---------|---------------|-----------|
