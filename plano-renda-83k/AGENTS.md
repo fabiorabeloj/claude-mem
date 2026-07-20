@@ -12,7 +12,8 @@ Este diretório (`plano-renda-83k/`) NÃO faz parte do plugin claude-mem (o rest
 
 - **Construído e testado:** site institucional, chatbot com IA real (Claude API) com captura de leads + painel + conector WhatsApp (Z-API), demo de vendas, isca em PDF, sistema de personas, plano anual adaptativo, operação formalizada.
 - **Pendente (ações humanas do dono):** publicar site/bot, abrir CNPJ (contador da família), revisar contrato (mãe advogada), primeira lista de prospecção.
-- **Nenhum cliente real ainda.** Não escreva casos, números de clientes ou depoimentos — eles não existem. Isso é regra, não detalhe.
+- **Nenhum cliente PAGANTE ainda** — mas existe um em fechamento: o **Colégio Pietra (E1)**, aprovado internamente, P0 global da operação. Não escreva casos, números de clientes ou depoimentos — ainda não existem. Isso é regra, não detalhe.
+- **Existe um sistema irmão fora deste repositório:** o **FabioOS** (vault local no PC do dono, `Desktop/FabioOs/`), com projetos próprios (Colégio Pietra, Escola, PRIMUS, triagem n8n) e documentos canônicos (`60_Sistemas/FabioOS/STATUS.md`, `NEXT_ACTIONS.md`). Este diretório e o FabioOS são complementares — não duplique nem contradiga o que estiver canônico lá.
 
 ## Mapa do diretório
 
