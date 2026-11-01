@@ -53,9 +53,10 @@ Plano de 12 meses rumo aos R$ 83 mil/mês. **Honestidade primeiro:** o ano 1 con
 
 | Mês | Conversas | Propostas | Fechamentos (R$) | Recorrente ativo (R$/mês) | Adaptação feita |
 |-----|-----------|-----------|------------------|---------------------------|-----------------|
-| Ago/26 | | | | | |
-| Set/26 | | | | | |
-| Out/26 | | | | | |
+| Ago/26 | — | — | — | — | Sem dados reportados (revisão 01/09 e 01/10 sem resposta) — plano mantido |
+| Set/26 | — | — | — | — | Sem dados reportados (revisão 01/10 sem resposta) — plano mantido |
+| Out/26 | | | | | Revisão 01/11 — aguardando números |
+| Nov/26 | | | | | |
 | ... | | | | | |
 
 ## As 3 regras permanentes do ano
