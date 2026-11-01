@@ -1,0 +1,16 @@
+{
+  "name": "chatbot-atendimento",
+  "version": "1.0.0",
+  "description": "Chatbot de atendimento com IA real (Claude) para negócios — produto entregável",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0"
+  }
+}

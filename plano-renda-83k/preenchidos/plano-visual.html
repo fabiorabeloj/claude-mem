@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plano 83k — Visão Geral</title>
+<style>
+  :root{--bg:#0b1220;--card:#141e33;--line:rgba(255,255,255,.08);--tx:#e8edf5;--mut:#93a4bd;--ac:#3ea6ff;--ok:#39d98a;--warn:#ffb454}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx);line-height:1.55;padding:28px 16px;max-width:900px;margin:0 auto}
+  h1{font-size:1.5rem;margin-bottom:4px}
+  .sub{color:var(--mut);margin-bottom:26px;font-size:.95rem}
+  h2{font-size:1.05rem;margin:30px 0 12px;color:var(--ac);text-transform:uppercase;letter-spacing:.08em}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:12px}
+  .grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .p{display:flex;gap:12px;align-items:flex-start}
+  .p .ico{font-size:1.4rem;flex:0 0 auto}
+  .p b{display:block;font-size:.95rem}
+  .p span{color:var(--mut);font-size:.85rem}
+  .tag{font-size:.7rem;font-weight:700;border-radius:999px;padding:2px 9px;margin-left:6px;vertical-align:middle}
+  .on{background:rgba(57,217,138,.15);color:var(--ok)}
+  .todo{background:rgba(255,180,84,.15);color:var(--warn)}
+  table{width:100%;border-collapse:collapse;font-size:.88rem}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em}
+  td b{color:var(--ok)}
+  .steps{counter-reset:s}
+  .step{display:flex;gap:14px;align-items:flex-start;margin-bottom:10px}
+  .step .n{counter-increment:s;flex:0 0 30px;height:30px;border-radius:50%;background:var(--ac);color:#04101f;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.85rem}
+  .step .n::before{content:counter(s)}
+  .foot{color:var(--mut);font-size:.82rem;margin-top:26px;border-top:1px solid var(--line);padding-top:14px}
+  .big{font-size:1.6rem;font-weight:800;color:var(--ok)}
+  .money{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+  .money .card{text-align:center;margin:0}
+  .money small{color:var(--mut);display:block;font-size:.75rem}
+</style>
+</head>
+<body>
+
+<h1>🎯 Facility SaaS — Operação 83k</h1>
+<p class="sub">Marca sem rosto · 8 personas de IA operando · você decide, assina e recebe</p>
+
+<h2>Como o dinheiro entra (os cestos)</h2>
+<div class="money">
+  <div class="card"><small>Cesto 1 · principal</small><b>Serviços</b><small>sites R$ 1,2–5k · bots R$ 1,5–6k · automações R$ 1,5–8k</small></div>
+  <div class="card"><small>Cesto 2 · o piso</small><b>Mensalidades</b><small>R$ 150–1.500/mês por cliente entregue</small></div>
+  <div class="card"><small>Cesto 3 · dólar</small><b>Canal US</b><small>mesmos serviços em inglês, 3–5x o valor</small></div>
+  <div class="card"><small>Cesto 4 · passivo</small><b>PDFs/guias</b><small>R$ 29–97, ensinando o que já fazemos</small></div>
+</div>
+
+<h2>As 8 personas de IA (quem faz o quê)</h2>
+<div class="grid">
+  <div class="card p"><div class="ico">💬</div><div><b>ATENDE <span class="tag on">RODANDO</span></b><span>atende o site 24h, captura nome + WhatsApp</span></div></div>
+  <div class="card p"><div class="ico">🎯</div><div><b>PROSPECTA</b><span>gera mensagens personalizadas para 15 alvos/semana</span></div></div>
+  <div class="card p"><div class="ico">🤝</div><div><b>FECHA</b><span>transforma conversa em proposta com preço fechado</span></div></div>
+  <div class="card p"><div class="ico">📣</div><div><b>CONTEÚDO</b><span>1 áudio seu → semana inteira de posts, sem rosto</span></div></div>
+  <div class="card p"><div class="ico">🔧</div><div><b>ENTREGA</b><span>checklist de execução + par de programação</span></div></div>
+  <div class="card p"><div class="ico">🛟</div><div><b>SUPORTE</b><span>responde mensalistas e segura a recorrência</span></div></div>
+  <div class="card p"><div class="ico">🇺🇸</div><div><b>GRINGA</b><span>propostas Upwork e conteúdo em inglês</span></div></div>
+  <div class="card p"><div class="ico">📊</div><div><b>CONSELHO <span class="tag on">AGENDADA</span></b><span>todo dia 1º revisa os números e adapta o plano</span></div></div>
+</div>
+
+<h2>Sua semana (3h30 no total)</h2>
+<div class="card"><table>
+  <tr><th>Dia</th><th>Com quem</th><th>O quê</th><th>Tempo</th></tr>
+  <tr><td>Seg</td><td>PROSPECTA</td><td>colar 15 alvos → enviar mensagens</td><td>30 min</td></tr>
+  <tr><td>Qua</td><td>CONTEÚDO</td><td>mandar 1 áudio → agendar pacote no Metricool</td><td>40 min</td></tr>
+  <tr><td>Sex</td><td>GRINGA</td><td>colar 5 jobs Upwork → enviar propostas</td><td>20 min</td></tr>
+  <tr><td>Quando lead responde</td><td>FECHA</td><td>colar conversa → enviar proposta</td><td>15 min</td></tr>
+  <tr><td>Projeto vendido</td><td>ENTREGA</td><td>seguir checklist (a hora que paga tudo)</td><td>var.</td></tr>
+  <tr><td>Dia 1º</td><td>CONSELHO</td><td>responder 4 números</td><td>2 min</td></tr>
+</table></div>
+
+<h2>O ano (metas por trimestre)</h2>
+<div class="card"><table>
+  <tr><th>Trimestre</th><th>Foco</th><th>Meta ao fim</th></tr>
+  <tr><td>Ago–Out/26</td><td>formalizar + 3 primeiros clientes</td><td><b>R$ 3–8 mil/mês</b></td></tr>
+  <tr><td>Nov–Jan/27</td><td>nicho + recorrência + canal US + PDF 1 à venda</td><td><b>R$ 6–12 mil/mês</b></td></tr>
+  <tr><td>Fev–Abr/27</td><td>escalar o canal campeão + upsells na base</td><td><b>R$ 10–18 mil/mês</b></td></tr>
+  <tr><td>Mai–Jul/27</td><td>preço cheio + decisão agência × produto</td><td><b>R$ 15–25 mil/mês</b></td></tr>
+</table>
+<p style="margin-top:10px;color:var(--mut);font-size:.85rem">Ano 2–3: repetir e escalar a máquina → <span class="big">R$ 83 mil/mês</span> (meta cheia entre o mês 30 e 42 — honesto, sem atalho mágico).</p></div>
+
+<h2>Para ligar a máquina (nesta ordem)</h2>
+<div class="card steps">
+  <div class="step"><div class="n"></div><div><b>Marca definida: Facility SaaS</b> — já aplicada em site, bot e personas <span class="tag on">FEITO</span></div></div>
+  <div class="step"><div class="n"></div><div><b>Mensagem ao contador da família</b> (CNPJ) e à sua mãe (contrato) — textos prontos, copiar e colar <span class="tag todo">VOCÊ · 5 min</span></div></div>
+  <div class="step"><div class="n"></div><div><b>Publicar o site + bot</b> — Vercel (site) e Railway (bot com sua chave da API) — guias prontos <span class="tag todo">VOCÊ · 40 min</span></div></div>
+  <div class="step"><div class="n"></div><div><b>Primeira lista de 15 alvos</b> para a PROSPECTA — negócios da sua cidade com atendimento lento <span class="tag todo">VOCÊ · 20 min</span></div></div>
+  <div class="step"><div class="n"></div><div><b>Todo o resto</b> — personas geram, plano se adapta sozinho todo mês <span class="tag on">EU (FABLE)</span></div></div>
+</div>
+
+<p class="foot">Tudo detalhado no repositório: <b>plano-renda-83k/</b> — personas-ia.md · plano-anual-adaptativo.md · operacao-formalizada.md · produto-chatbot/ · site-fabio/ · cesto-produtos-digitais.md. Revisão automática: todo dia 1º, aqui na conversa.</p>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo — Atendimento com IA · Clínica Sorriso</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0b141a;display:flex;flex-direction:column;align-items:center;min-height:100vh;padding:20px}
+  .note{color:#8696a0;font-size:.85rem;margin-bottom:14px;text-align:center;max-width:420px}
+  .note strong{color:#e9edef}
+  .phone{width:100%;max-width:420px;height:78vh;min-height:520px;background:#0b141a;border:1px solid #2a3942;border-radius:22px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .top{background:#202c33;padding:12px 16px;display:flex;align-items:center;gap:12px}
+  .avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#25D366,#128C7E);display:flex;align-items:center;justify-content:center;font-size:1.3rem}
+  .top .info{flex:1}
+  .top .name{color:#e9edef;font-weight:600;font-size:.98rem}
+  .top .status{color:#25D366;font-size:.78rem}
+  .chat{flex:1;overflow-y:auto;padding:18px 14px;background:#0b141a url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" opacity="0.03"><circle cx="30" cy="30" r="1.5" fill="white"/></svg>')}
+  .msg{max-width:82%;padding:9px 13px;border-radius:10px;margin-bottom:10px;font-size:.92rem;line-height:1.45;color:#e9edef;white-space:pre-line;animation:pop .18s ease}
+  .bot{background:#202c33;border-top-left-radius:2px;margin-right:auto}
+  .user{background:#005c4b;border-top-right-radius:2px;margin-left:auto}
+  .time{display:block;font-size:.66rem;color:#8696a0;text-align:right;margin-top:3px}
+  .typing{display:inline-flex;gap:4px;padding:12px 14px}
+  .typing i{width:7px;height:7px;border-radius:50%;background:#8696a0;animation:blink 1.2s infinite}
+  .typing i:nth-child(2){animation-delay:.2s}.typing i:nth-child(3){animation-delay:.4s}
+  @keyframes blink{0%,80%,100%{opacity:.25}40%{opacity:1}}
+  @keyframes pop{from{transform:scale(.95);opacity:0}to{transform:scale(1);opacity:1}}
+  .quick{display:flex;gap:8px;flex-wrap:wrap;padding:10px 12px;background:#111b21}
+  .quick button{background:transparent;border:1px solid #25D366;color:#25D366;border-radius:999px;padding:7px 14px;font-size:.8rem;cursor:pointer}
+  .quick button:hover{background:rgba(37,211,102,.12)}
+  .inputbar{display:flex;gap:10px;padding:10px 12px;background:#202c33}
+  .inputbar input{flex:1;background:#2a3942;border:none;border-radius:999px;padding:11px 18px;color:#e9edef;font-size:.92rem;outline:none}
+  .inputbar button{background:#25D366;border:none;width:44px;height:44px;border-radius:50%;font-size:1.1rem;cursor:pointer}
+</style>
+</head>
+<body>
+  <p class="note"><strong>DEMONSTRAÇÃO</strong> — atendimento com IA de uma clínica fictícia. Digite como se fosse um paciente, ou use os botões. <strong>O seu negócio teria um igual, treinado nas SUAS informações.</strong></p>
+
+  <div class="phone">
+    <div class="top">
+      <div class="avatar">🦷</div>
+      <div class="info">
+        <div class="name">Clínica Sorriso — Assistente</div>
+        <div class="status">online · responde na hora, 24h</div>
+      </div>
+    </div>
+    <div class="chat" id="chat"></div>
+    <div class="quick">
+      <button onclick="send('Quero agendar uma consulta')">Agendar consulta</button>
+      <button onclick="send('Quanto custa uma limpeza?')">Preços</button>
+      <button onclick="send('Vocês aceitam convênio?')">Convênio</button>
+      <button onclick="send('Qual o horário de vocês?')">Horários</button>
+    </div>
+    <div class="inputbar">
+      <input id="inp" placeholder="Digite uma mensagem…" onkeydown="if(event.key==='Enter')send()">
+      <button onclick="send()">➤</button>
+    </div>
+  </div>
+
+<script>
+const chat = document.getElementById('chat');
+const inp = document.getElementById('inp');
+
+const RULES = [
+  {k:['agendar','consulta','marcar','horário livre','vaga','agenda'],
+   r:'Claro! 😊 Para agendar sua consulta, me diga:\n\n1️⃣ Seu nome completo\n2️⃣ Melhor período: manhã ou tarde?\n\nTemos vagas amanhã às 9h30 e quinta às 14h. Alguma dessas funciona para você?'},
+  {k:['preço','custa','valor','quanto','orçamento'],
+   r:'Nossos valores principais:\n\n🦷 Avaliação inicial: R$ 90 (abatido do tratamento)\n✨ Limpeza completa: R$ 180\n⚪ Clareamento: a partir de R$ 600\n\nQuer que eu já agende uma avaliação? Ela inclui o plano de tratamento com orçamento fechado.'},
+  {k:['convênio','convenio','plano','unimed','amil','odonto'],
+   r:'Sim! Atendemos os principais convênios odontológicos: OdontoPrev, Amil Dental, Bradesco Dental e SulAmérica Odonto. 💳\n\nMe diz qual é o seu que eu já confirmo a cobertura e te passo os horários disponíveis!'},
+  {k:['horário','horarios','funciona','abre','fecha','aberto','atendimento'],
+   r:'Nosso horário de atendimento:\n\n🕘 Segunda a sexta: 8h às 19h\n🕘 Sábado: 8h às 13h\n\nMas eu respondo por aqui 24h — pode agendar a qualquer momento! 😉'},
+  {k:['endereço','endereco','onde','fica','local','chegar'],
+   r:'Estamos na Rua das Flores, 123 — Centro. 📍\n\nTem estacionamento próprio e estamos a 5 min do metrô. Quer que eu envie a localização ou já prefere agendar sua visita?'},
+  {k:['dor','doendo','urgência','urgencia','emergência','quebrou'],
+   r:'Sinto muito que você esteja com dor! 😟 Casos de urgência têm encaixe prioritário no mesmo dia.\n\nMe diga seu nome e telefone que nossa equipe te retorna em minutos para o encaixe. Se a dor for intensa agora, ligue: (11) 99999-0000.'},
+  {k:['obrigad','valeu','thanks','ok','blz','beleza'],
+   r:'Por nada! 😊 Qualquer coisa é só chamar — estou aqui 24h. A Clínica Sorriso cuida do seu sorriso! 🦷✨'},
+  {k:['oi','olá','ola','bom dia','boa tarde','boa noite','hey'],
+   r:'Olá! Bem-vindo(a) à Clínica Sorriso! 😊🦷\n\nSou o assistente virtual e posso te ajudar agora mesmo com:\n\n📅 Agendamento de consultas\n💰 Preços e orçamentos\n💳 Convênios aceitos\n📍 Endereço e horários\n\nComo posso ajudar?'},
+];
+const FALLBACK = 'Boa pergunta! Essa eu vou passar para nossa equipe humana, que te responde em instantes no horário comercial. 🧑‍⚕️\n\nEnquanto isso, posso te ajudar com agendamento, preços, convênios ou horários — é só perguntar!';
+
+function now(){const d=new Date();return d.getHours().toString().padStart(2,'0')+':'+d.getMinutes().toString().padStart(2,'0')}
+function add(text, who){
+  const m=document.createElement('div');
+  m.className='msg '+who;
+  m.textContent=text;
+  const t=document.createElement('span');t.className='time';t.textContent=now();
+  m.appendChild(t);
+  chat.appendChild(m);
+  chat.scrollTop=chat.scrollHeight;
+}
+function botReply(text){
+  const typing=document.createElement('div');
+  typing.className='msg bot typing';
+  typing.innerHTML='<i></i><i></i><i></i>';
+  chat.appendChild(typing);chat.scrollTop=chat.scrollHeight;
+  const low=text.toLowerCase();
+  const rule=RULES.find(r=>r.k.some(k=>low.includes(k)));
+  setTimeout(()=>{
+    typing.remove();
+    add(rule?rule.r:FALLBACK,'bot');
+  }, 900+Math.random()*700);
+}
+function send(preset){
+  const text=preset||inp.value.trim();
+  if(!text)return;
+  inp.value='';
+  add(text,'user');
+  botReply(text);
+}
+setTimeout(()=>add('Olá! Bem-vindo(a) à Clínica Sorriso! 😊🦷\n\nSou o assistente virtual da clínica. Posso agendar sua consulta, informar preços, convênios e horários — como posso ajudar?','bot'),600);
+</script>
+</body>
+</html>
